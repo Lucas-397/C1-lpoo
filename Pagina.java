@@ -22,8 +22,7 @@ public class Pagina{
       this.url = url;
     }
   
-    public void toString(){
-      System.out.println("Pagina titulo: " + titulo + ", url: " + url);
+    public void tostring(){
+      System.out.println("Pagina: " + titulo + ", url: " + url);
     }
-    
 }
