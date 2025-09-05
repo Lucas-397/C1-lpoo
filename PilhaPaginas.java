@@ -15,12 +15,12 @@ public class PilhaPaginas{
       return pilha.peekLast();
   }
 
-  public void push(Pagina pagina){
+  public void push(Pagina pagina){//adiciona novo item a pilha
       this.pilha.add(pagina);
   }
 
   public boolean pop(){
-    if(!isEmpty()){
+    if(!this.isEmpty()){//verifica se a pilha é vazia
       this.pilha.removeLast();
       return true;
     }
